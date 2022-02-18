@@ -280,5 +280,13 @@ namespace MouseCursorScreenMapProgram
     {
 
     }
+
+    private void CursorRegionToKey_KeyPress(object sender, KeyPressEventArgs e)
+    {
+        if (e.KeyChar == (char)Keys.Escape)
+      {
+        this.Close();
+      }
+    }
   }
 }

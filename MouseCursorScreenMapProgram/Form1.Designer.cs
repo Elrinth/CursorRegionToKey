@@ -115,6 +115,7 @@ namespace MouseCursorScreenMapProgram
       this.Name = "CursorRegionToKey";
       this.Text = "Form1";
       this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
+      this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.CursorRegionToKey_KeyPress);
       this.Resize += new System.EventHandler(this.Form1_Resize);
       this.ResumeLayout(false);
       this.PerformLayout();
