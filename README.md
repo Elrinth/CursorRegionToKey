@@ -1,6 +1,11 @@
-<<<<<<< HEAD
+
 test
 =======
 # CursorRegionToKey
 Mouse pointer position will determine which keyboard keys are being pressed (max 2 at same time)
->>>>>>> c928e1f14a42bca87493e9e01957d198eeec3ea1
+
+This program maps region of the screen:
+* Left to A key on keyboard.
+* Right to D key on keyboard.
+* Top to W key on keyboard.
+* Bottom to S key on keyboard.
